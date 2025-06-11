@@ -1,3 +1,15 @@
 abc456
 def789
 ghi101112
+
+
+
+MCP Server + LLM + Client
+
+
+User -> ( tells to git commit ) -> Client -> passing LLM ( with list of avaialble MCP servers ) -> LLM decides wich MCP to use -> pass infor about MCP to be used to Client -> Client calls it -> Client return output to LLM -> LLM decides what we do next
+
+
+LLM is actually the two things only here:
+1. Proper arguments normalizer/ formater based on MCP Server schema
+2. Decision maker on what to do next based on MCP Server OUTPUT

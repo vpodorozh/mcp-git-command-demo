@@ -1,6 +1,6 @@
-# MCP Git Command Server
+# MCP Git Command Server - Demo
 
-A Model Context Protocol (MCP) server that provides git command functionality, specifically for committing files to a git repository.
+DEMO of Model Context Protocol (MCP) server that provides git command functionality, specifically for committing files to a git repository.
 
 ## Features
 
@@ -58,6 +58,8 @@ Stages specified files and commits them to the git repository.
 ## Configuration
 
 To use this MCP server with an MCP client (for ZED IDE), add it to your client's configuration:
+
+Do not forget to change `FULL_PATH_TO_PROJECT_DIR` to the actual path of your project directory.
 
 ```json
 {
