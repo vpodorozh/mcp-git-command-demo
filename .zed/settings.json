@@ -1,0 +1,12 @@
+{
+  "context_servers": {
+    "git-commit": {
+      "command": {
+        "path": "npx",
+        "args": ["tsx", "/Users/vladyslavpodorozhnyi/sites/mcp-git-command/src/index.ts"],
+        "env": null
+      },
+      "settings": {}
+    }
+  }
+}

@@ -1,0 +1,10 @@
+This is a test file to demonstrate the enhanced git-commit tool output.
+
+The updated tool now provides:
+- Clear success/failure status
+- Full git command output
+- Detailed validation steps
+- File staging results
+- Comprehensive error reporting
+
+This file will be used to test the improved MCP git-commit functionality.
